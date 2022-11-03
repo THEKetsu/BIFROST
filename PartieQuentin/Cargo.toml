@@ -27,3 +27,7 @@ base64 = "0.13"
 
 # Types for HTTP requests and responses.
 http = "0.2.6" 
+
+# DataBase Gestion 
+diesel = { version = "2.0.0", features = ["postgres"] }
+dotenvy = "0.15"
