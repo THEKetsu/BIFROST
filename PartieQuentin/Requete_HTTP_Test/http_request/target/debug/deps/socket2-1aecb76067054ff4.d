@@ -1,0 +1,11 @@
+C:\Users\user\Desktop\BIFROST\PartieQuentin\Requete_HTTP_Test\http_request\target\debug\deps\socket2-1aecb76067054ff4.rmeta: C:\Users\user\.cargo\registry\src\github.com-1ecc6299db9ec823\socket2-0.4.7\src\lib.rs C:\Users\user\.cargo\registry\src\github.com-1ecc6299db9ec823\socket2-0.4.7\src\sockaddr.rs C:\Users\user\.cargo\registry\src\github.com-1ecc6299db9ec823\socket2-0.4.7\src\socket.rs C:\Users\user\.cargo\registry\src\github.com-1ecc6299db9ec823\socket2-0.4.7\src\sockref.rs C:\Users\user\.cargo\registry\src\github.com-1ecc6299db9ec823\socket2-0.4.7\src\sys\windows.rs
+
+C:\Users\user\Desktop\BIFROST\PartieQuentin\Requete_HTTP_Test\http_request\target\debug\deps\libsocket2-1aecb76067054ff4.rlib: C:\Users\user\.cargo\registry\src\github.com-1ecc6299db9ec823\socket2-0.4.7\src\lib.rs C:\Users\user\.cargo\registry\src\github.com-1ecc6299db9ec823\socket2-0.4.7\src\sockaddr.rs C:\Users\user\.cargo\registry\src\github.com-1ecc6299db9ec823\socket2-0.4.7\src\socket.rs C:\Users\user\.cargo\registry\src\github.com-1ecc6299db9ec823\socket2-0.4.7\src\sockref.rs C:\Users\user\.cargo\registry\src\github.com-1ecc6299db9ec823\socket2-0.4.7\src\sys\windows.rs
+
+C:\Users\user\Desktop\BIFROST\PartieQuentin\Requete_HTTP_Test\http_request\target\debug\deps\socket2-1aecb76067054ff4.d: C:\Users\user\.cargo\registry\src\github.com-1ecc6299db9ec823\socket2-0.4.7\src\lib.rs C:\Users\user\.cargo\registry\src\github.com-1ecc6299db9ec823\socket2-0.4.7\src\sockaddr.rs C:\Users\user\.cargo\registry\src\github.com-1ecc6299db9ec823\socket2-0.4.7\src\socket.rs C:\Users\user\.cargo\registry\src\github.com-1ecc6299db9ec823\socket2-0.4.7\src\sockref.rs C:\Users\user\.cargo\registry\src\github.com-1ecc6299db9ec823\socket2-0.4.7\src\sys\windows.rs
+
+C:\Users\user\.cargo\registry\src\github.com-1ecc6299db9ec823\socket2-0.4.7\src\lib.rs:
+C:\Users\user\.cargo\registry\src\github.com-1ecc6299db9ec823\socket2-0.4.7\src\sockaddr.rs:
+C:\Users\user\.cargo\registry\src\github.com-1ecc6299db9ec823\socket2-0.4.7\src\socket.rs:
+C:\Users\user\.cargo\registry\src\github.com-1ecc6299db9ec823\socket2-0.4.7\src\sockref.rs:
+C:\Users\user\.cargo\registry\src\github.com-1ecc6299db9ec823\socket2-0.4.7\src\sys\windows.rs:
