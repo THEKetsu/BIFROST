@@ -7,7 +7,7 @@ pub mod handler_file;
 pub async fn main() {
     let api = axum::Router::new()
     .fallback(handler_file::routing_error.into_service())
-    .route("/web",get(handler_file::siteHTML));
+    .route("/",get(handler_file::siteHTML));
 
 // http://localhost:3000.
     axum::Server::bind(&"0.0.0.0:3000".parse().unwrap())
