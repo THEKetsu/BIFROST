@@ -1,3 +1,5 @@
+SEMAINE DU 1er NOVEMBRE
+
 Vidéo regardé :
 https://www.youtube.com/watch?v=yqA4Q6jHnfc (GitHub 2/2)
 https://www.youtube.com/watch?v=eXF0epLeCgo&t=2004s (GitHub 1/2)
@@ -15,4 +17,4 @@ Comment utiliser mon code Ex_API.rs :
 -Cargo run pour lancer le code
 -Aller sur http://localhost:3000 pour voir les requetes envoyé
 
-
+SEMAINE DU 7 NOVEMBRE
