@@ -28,5 +28,5 @@ https://www.youtube.com/watch?v=Ck_bOoRjKdQ
 Video sur JSON :
 https://www.youtube.com/watch?v=GKXCLc8F7nA&t=615s
 
-Video sur une API
+Video requete HTTP
 https://www.youtube.com/watch?v=j9MsMYz9hBw&t=2535s
