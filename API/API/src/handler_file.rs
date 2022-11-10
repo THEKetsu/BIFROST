@@ -10,6 +10,8 @@ pub async fn api_down() {
         .expect("expect tokio signal ctrl-c");
     println!("signal shutdown");
 }
+
+
 /// Nous indique si la route existe ou pas et nous retourne une erreur si il ne trouve pas 
 /// Parameter Validation #1 
 pub async fn routing_error(uri: axum::http::Uri) -> impl axum::response::IntoResponse {
