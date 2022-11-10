@@ -1,3 +1,5 @@
+/* fichier qui fait la gestion de requete HTTP comme GET */
+
 use std::include_str;
 use std::collections::HashMap;
 
