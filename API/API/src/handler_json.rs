@@ -6,7 +6,7 @@ use std::include_str;
 // Marche pas bien mais en gros extraire un fichier json et faire des modifs dedans
 pub async fn collect(){
     let mut companies = {
-        let text = std::fs::read_to_string(&"id.json").unwrap();
+        let text = std::fs::read_to_string("src/json_file/id.json").unwrap();
         serde_json::from_str::<Value>(&text).unwrap()
     };
     let N = companies["companies"].as_array().unwrap().len();
@@ -22,7 +22,7 @@ pub async fn collect(){
 
 
 pub async fn get_demo_json() -> axum::response::Json<&'static str>{
-    include_str!("id.json").into()
+    include_str!("json_file/id.json").into()
 }
 /// axum handler for "PUT /demo.json" which uses `aumx::extract::Json`.
 /// This buffers the request body then deserializes it using serde.

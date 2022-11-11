@@ -1,0 +1,24 @@
+{
+  "companies": [
+    {
+      "employee_id": [
+        {
+          "hugo": 1,
+          "loic": 2
+        }
+      ],
+      "name": "BIFROST",
+      "number": 20000.0
+    },
+    {
+      "employee_id": [
+        {
+          "Camille": 1,
+          "Chloe": 1
+        }
+      ],
+      "name": "ISEN",
+      "number": 2000.0
+    }
+  ]
+}
