@@ -27,49 +27,50 @@ exit code: 0
 running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O2" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-Foc:\\Users\\user\\Desktop\\BIFROST\\API\\API_Actix\\https\\target\\debug\\build\\zstd-sys-b2c3fe9b145aef81\\out\\zstd/lib/common\\entropy_common.o" "-c" "zstd/lib/common\\entropy_common.c"
 cargo:warning=clÿ: Ligne de commande warning D9002ÿ: option '-fvisibility=hidden' inconnue ignor‚e
 entropy_common.c
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O2" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-Foc:\\Users\\user\\Desktop\\BIFROST\\API\\API_Actix\\https\\target\\debug\\build\\zstd-sys-b2c3fe9b145aef81\\out\\zstd/lib/common\\error_private.o" "-c" "zstd/lib/common\\error_private.c"
+exit code: 0
+cargo:warning=clÿ: Ligne de commande warning D9002ÿ: option '-fvisibility=hidden' inconnue ignor‚e
+error_private.c
 exit code: 0
 running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O2" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-Foc:\\Users\\user\\Desktop\\BIFROST\\API\\API_Actix\\https\\target\\debug\\build\\zstd-sys-b2c3fe9b145aef81\\out\\zstd/lib/common\\fse_decompress.o" "-c" "zstd/lib/common\\fse_decompress.c"
-running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O2" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-Foc:\\Users\\user\\Desktop\\BIFROST\\API\\API_Actix\\https\\target\\debug\\build\\zstd-sys-b2c3fe9b145aef81\\out\\zstd/lib/common\\error_private.o" "-c" "zstd/lib/common\\error_private.c"
+cargo:warning=clÿ: Ligne de commande warning D9002ÿ: option '-fvisibility=hidden' inconnue ignor‚e
+fse_decompress.c
 running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O2" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-Foc:\\Users\\user\\Desktop\\BIFROST\\API\\API_Actix\\https\\target\\debug\\build\\zstd-sys-b2c3fe9b145aef81\\out\\zstd/lib/common\\pool.o" "-c" "zstd/lib/common\\pool.c"
 cargo:warning=clÿ: Ligne de commande warning D9002ÿ: option '-fvisibility=hidden' inconnue ignor‚e
-cargo:warning=clÿ: Ligne de commande warning D9002ÿ: option '-fvisibility=hidden' inconnue ignor‚e
-cargo:warning=clÿ: Ligne de commande warning D9002ÿ: option '-fvisibility=hidden' inconnue ignor‚e
 pool.c
-fse_decompress.c
-error_private.c
+exit code: 0
 running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O2" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-Foc:\\Users\\user\\Desktop\\BIFROST\\API\\API_Actix\\https\\target\\debug\\build\\zstd-sys-b2c3fe9b145aef81\\out\\zstd/lib/common\\threading.o" "-c" "zstd/lib/common\\threading.c"
-exit code: 0
-exit code: 0
 cargo:warning=clÿ: Ligne de commande warning D9002ÿ: option '-fvisibility=hidden' inconnue ignor‚e
+exit code: 0
 threading.c
 exit code: 0
 running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O2" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-Foc:\\Users\\user\\Desktop\\BIFROST\\API\\API_Actix\\https\\target\\debug\\build\\zstd-sys-b2c3fe9b145aef81\\out\\zstd/lib/common\\zstd_common.o" "-c" "zstd/lib/common\\zstd_common.c"
-cargo:warning=clÿ: Ligne de commande warning D9002ÿ: option '-fvisibility=hidden' inconnue ignor‚e
-zstd_common.c
-exit code: 0
 running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O2" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-Foc:\\Users\\user\\Desktop\\BIFROST\\API\\API_Actix\\https\\target\\debug\\build\\zstd-sys-b2c3fe9b145aef81\\out\\zstd/lib/compress\\fse_compress.o" "-c" "zstd/lib/compress\\fse_compress.c"
 cargo:warning=clÿ: Ligne de commande warning D9002ÿ: option '-fvisibility=hidden' inconnue ignor‚e
-exit code: 0
+zstd_common.c
+cargo:warning=clÿ: Ligne de commande warning D9002ÿ: option '-fvisibility=hidden' inconnue ignor‚e
 fse_compress.c
 exit code: 0
 running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O2" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-Foc:\\Users\\user\\Desktop\\BIFROST\\API\\API_Actix\\https\\target\\debug\\build\\zstd-sys-b2c3fe9b145aef81\\out\\zstd/lib/compress\\hist.o" "-c" "zstd/lib/compress\\hist.c"
 cargo:warning=clÿ: Ligne de commande warning D9002ÿ: option '-fvisibility=hidden' inconnue ignor‚e
 hist.c
-exit code: 0
 running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O2" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-Foc:\\Users\\user\\Desktop\\BIFROST\\API\\API_Actix\\https\\target\\debug\\build\\zstd-sys-b2c3fe9b145aef81\\out\\zstd/lib/compress\\huf_compress.o" "-c" "zstd/lib/compress\\huf_compress.c"
-cargo:warning=clÿ: Ligne de commande warning D9002ÿ: option '-fvisibility=hidden' inconnue ignor‚e
-huf_compress.c
 running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O2" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-Foc:\\Users\\user\\Desktop\\BIFROST\\API\\API_Actix\\https\\target\\debug\\build\\zstd-sys-b2c3fe9b145aef81\\out\\zstd/lib/compress\\zstdmt_compress.o" "-c" "zstd/lib/compress\\zstdmt_compress.c"
 cargo:warning=clÿ: Ligne de commande warning D9002ÿ: option '-fvisibility=hidden' inconnue ignor‚e
+cargo:warning=clÿ: Ligne de commande warning D9002ÿ: option '-fvisibility=hidden' inconnue ignor‚e
 zstdmt_compress.c
+huf_compress.c
 exit code: 0
 exit code: 0
 running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O2" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-Foc:\\Users\\user\\Desktop\\BIFROST\\API\\API_Actix\\https\\target\\debug\\build\\zstd-sys-b2c3fe9b145aef81\\out\\zstd/lib/compress\\zstd_compress.o" "-c" "zstd/lib/compress\\zstd_compress.c"
-running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O2" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-Foc:\\Users\\user\\Desktop\\BIFROST\\API\\API_Actix\\https\\target\\debug\\build\\zstd-sys-b2c3fe9b145aef81\\out\\zstd/lib/compress\\zstd_compress_literals.o" "-c" "zstd/lib/compress\\zstd_compress_literals.c"
 cargo:warning=clÿ: Ligne de commande warning D9002ÿ: option '-fvisibility=hidden' inconnue ignor‚e
 zstd_compress.c
+exit code: 0
+exit code: 0
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O2" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-Foc:\\Users\\user\\Desktop\\BIFROST\\API\\API_Actix\\https\\target\\debug\\build\\zstd-sys-b2c3fe9b145aef81\\out\\zstd/lib/compress\\zstd_compress_literals.o" "-c" "zstd/lib/compress\\zstd_compress_literals.c"
 cargo:warning=clÿ: Ligne de commande warning D9002ÿ: option '-fvisibility=hidden' inconnue ignor‚e
 zstd_compress_literals.c
+exit code: 0
 exit code: 0
 running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O2" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-Foc:\\Users\\user\\Desktop\\BIFROST\\API\\API_Actix\\https\\target\\debug\\build\\zstd-sys-b2c3fe9b145aef81\\out\\zstd/lib/compress\\zstd_compress_sequences.o" "-c" "zstd/lib/compress\\zstd_compress_sequences.c"
 cargo:warning=clÿ: Ligne de commande warning D9002ÿ: option '-fvisibility=hidden' inconnue ignor‚e
@@ -79,17 +80,17 @@ running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC
 cargo:warning=clÿ: Ligne de commande warning D9002ÿ: option '-fvisibility=hidden' inconnue ignor‚e
 zstd_compress_superblock.c
 running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O2" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-Foc:\\Users\\user\\Desktop\\BIFROST\\API\\API_Actix\\https\\target\\debug\\build\\zstd-sys-b2c3fe9b145aef81\\out\\zstd/lib/compress\\zstd_double_fast.o" "-c" "zstd/lib/compress\\zstd_double_fast.c"
+cargo:warning=clÿ: Ligne de commande warning D9002ÿ: option '-fvisibility=hidden' inconnue ignor‚e
+zstd_double_fast.c
+exit code: 0
 running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O2" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-Foc:\\Users\\user\\Desktop\\BIFROST\\API\\API_Actix\\https\\target\\debug\\build\\zstd-sys-b2c3fe9b145aef81\\out\\zstd/lib/compress\\zstd_fast.o" "-c" "zstd/lib/compress\\zstd_fast.c"
 cargo:warning=clÿ: Ligne de commande warning D9002ÿ: option '-fvisibility=hidden' inconnue ignor‚e
 zstd_fast.c
-exit code: 0
 running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O2" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-Foc:\\Users\\user\\Desktop\\BIFROST\\API\\API_Actix\\https\\target\\debug\\build\\zstd-sys-b2c3fe9b145aef81\\out\\zstd/lib/compress\\zstd_lazy.o" "-c" "zstd/lib/compress\\zstd_lazy.c"
 cargo:warning=clÿ: Ligne de commande warning D9002ÿ: option '-fvisibility=hidden' inconnue ignor‚e
-zstd_double_fast.c
-cargo:warning=clÿ: Ligne de commande warning D9002ÿ: option '-fvisibility=hidden' inconnue ignor‚e
 zstd_lazy.c
-exit code: 0
 running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O2" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-Foc:\\Users\\user\\Desktop\\BIFROST\\API\\API_Actix\\https\\target\\debug\\build\\zstd-sys-b2c3fe9b145aef81\\out\\zstd/lib/compress\\zstd_ldm.o" "-c" "zstd/lib/compress\\zstd_ldm.c"
+exit code: 0
 running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O2" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-Foc:\\Users\\user\\Desktop\\BIFROST\\API\\API_Actix\\https\\target\\debug\\build\\zstd-sys-b2c3fe9b145aef81\\out\\zstd/lib/compress\\zstd_opt.o" "-c" "zstd/lib/compress\\zstd_opt.c"
 cargo:warning=clÿ: Ligne de commande warning D9002ÿ: option '-fvisibility=hidden' inconnue ignor‚e
 zstd_opt.c
@@ -97,44 +98,44 @@ cargo:warning=clÿ: Ligne de commande warning D9002ÿ: option '-fvisibility=hidden
 zstd_ldm.c
 exit code: 0
 running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O2" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-Foc:\\Users\\user\\Desktop\\BIFROST\\API\\API_Actix\\https\\target\\debug\\build\\zstd-sys-b2c3fe9b145aef81\\out\\zstd/lib/decompress\\huf_decompress.o" "-c" "zstd/lib/decompress\\huf_decompress.c"
-exit code: 0
-cargo:warning=clÿ: Ligne de commande warning D9002ÿ: option '-fvisibility=hidden' inconnue ignor‚e
 running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O2" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-Foc:\\Users\\user\\Desktop\\BIFROST\\API\\API_Actix\\https\\target\\debug\\build\\zstd-sys-b2c3fe9b145aef81\\out\\zstd/lib/decompress\\zstd_ddict.o" "-c" "zstd/lib/decompress\\zstd_ddict.c"
-huf_decompress.c
 cargo:warning=clÿ: Ligne de commande warning D9002ÿ: option '-fvisibility=hidden' inconnue ignor‚e
+cargo:warning=clÿ: Ligne de commande warning D9002ÿ: option '-fvisibility=hidden' inconnue ignor‚e
+huf_decompress.c
 zstd_ddict.c
 exit code: 0
-exit code: 0
 running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O2" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-Foc:\\Users\\user\\Desktop\\BIFROST\\API\\API_Actix\\https\\target\\debug\\build\\zstd-sys-b2c3fe9b145aef81\\out\\zstd/lib/decompress\\zstd_decompress.o" "-c" "zstd/lib/decompress\\zstd_decompress.c"
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O2" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-Foc:\\Users\\user\\Desktop\\BIFROST\\API\\API_Actix\\https\\target\\debug\\build\\zstd-sys-b2c3fe9b145aef81\\out\\zstd/lib/decompress\\zstd_decompress_block.o" "-c" "zstd/lib/decompress\\zstd_decompress_block.c"
+exit code: 0
+cargo:warning=clÿ: Ligne de commande warning D9002ÿ: option '-fvisibility=hidden' inconnue ignor‚e
 cargo:warning=clÿ: Ligne de commande warning D9002ÿ: option '-fvisibility=hidden' inconnue ignor‚e
 zstd_decompress.c
-running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O2" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-Foc:\\Users\\user\\Desktop\\BIFROST\\API\\API_Actix\\https\\target\\debug\\build\\zstd-sys-b2c3fe9b145aef81\\out\\zstd/lib/decompress\\zstd_decompress_block.o" "-c" "zstd/lib/decompress\\zstd_decompress_block.c"
-cargo:warning=clÿ: Ligne de commande warning D9002ÿ: option '-fvisibility=hidden' inconnue ignor‚e
 zstd_decompress_block.c
-exit code: 0
 running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O2" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-Foc:\\Users\\user\\Desktop\\BIFROST\\API\\API_Actix\\https\\target\\debug\\build\\zstd-sys-b2c3fe9b145aef81\\out\\zstd/lib/dictBuilder\\cover.o" "-c" "zstd/lib/dictBuilder\\cover.c"
-running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O2" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-Foc:\\Users\\user\\Desktop\\BIFROST\\API\\API_Actix\\https\\target\\debug\\build\\zstd-sys-b2c3fe9b145aef81\\out\\zstd/lib/dictBuilder\\divsufsort.o" "-c" "zstd/lib/dictBuilder\\divsufsort.c"
 cargo:warning=clÿ: Ligne de commande warning D9002ÿ: option '-fvisibility=hidden' inconnue ignor‚e
-cover.c
-cargo:warning=clÿ: Ligne de commande warning D9002ÿ: option '-fvisibility=hidden' inconnue ignor‚e
-divsufsort.c
 exit code: 0
+cover.c
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O2" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-Foc:\\Users\\user\\Desktop\\BIFROST\\API\\API_Actix\\https\\target\\debug\\build\\zstd-sys-b2c3fe9b145aef81\\out\\zstd/lib/dictBuilder\\divsufsort.o" "-c" "zstd/lib/dictBuilder\\divsufsort.c"
+divsufsort.c
+cargo:warning=clÿ: Ligne de commande warning D9002ÿ: option '-fvisibility=hidden' inconnue ignor‚e
 running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O2" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-Foc:\\Users\\user\\Desktop\\BIFROST\\API\\API_Actix\\https\\target\\debug\\build\\zstd-sys-b2c3fe9b145aef81\\out\\zstd/lib/dictBuilder\\fastcover.o" "-c" "zstd/lib/dictBuilder\\fastcover.c"
 cargo:warning=clÿ: Ligne de commande warning D9002ÿ: option '-fvisibility=hidden' inconnue ignor‚e
 fastcover.c
 exit code: 0
-exit code: 0
-running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O2" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-Foc:\\Users\\user\\Desktop\\BIFROST\\API\\API_Actix\\https\\target\\debug\\build\\zstd-sys-b2c3fe9b145aef81\\out\\zstd/lib/legacy\\zstd_v01.o" "-c" "zstd/lib/legacy\\zstd_v01.c"
 running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O2" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-Foc:\\Users\\user\\Desktop\\BIFROST\\API\\API_Actix\\https\\target\\debug\\build\\zstd-sys-b2c3fe9b145aef81\\out\\zstd/lib/dictBuilder\\zdict.o" "-c" "zstd/lib/dictBuilder\\zdict.c"
-cargo:warning=clÿ: Ligne de commande warning D9002ÿ: option '-fvisibility=hidden' inconnue ignor‚e
+exit code: 0
 zdict.c
 cargo:warning=clÿ: Ligne de commande warning D9002ÿ: option '-fvisibility=hidden' inconnue ignor‚e
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O2" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-Foc:\\Users\\user\\Desktop\\BIFROST\\API\\API_Actix\\https\\target\\debug\\build\\zstd-sys-b2c3fe9b145aef81\\out\\zstd/lib/legacy\\zstd_v01.o" "-c" "zstd/lib/legacy\\zstd_v01.c"
 exit code: 0
-zstd_v01.c
 running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O2" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-Foc:\\Users\\user\\Desktop\\BIFROST\\API\\API_Actix\\https\\target\\debug\\build\\zstd-sys-b2c3fe9b145aef81\\out\\zstd/lib/legacy\\zstd_v02.o" "-c" "zstd/lib/legacy\\zstd_v02.c"
 cargo:warning=clÿ: Ligne de commande warning D9002ÿ: option '-fvisibility=hidden' inconnue ignor‚e
+zstd_v01.c
+cargo:warning=clÿ: Ligne de commande warning D9002ÿ: option '-fvisibility=hidden' inconnue ignor‚e
+exit code: 0
 zstd_v02.c
 running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O2" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-Foc:\\Users\\user\\Desktop\\BIFROST\\API\\API_Actix\\https\\target\\debug\\build\\zstd-sys-b2c3fe9b145aef81\\out\\zstd/lib/legacy\\zstd_v03.o" "-c" "zstd/lib/legacy\\zstd_v03.c"
+exit code: 0
 running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O2" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-Foc:\\Users\\user\\Desktop\\BIFROST\\API\\API_Actix\\https\\target\\debug\\build\\zstd-sys-b2c3fe9b145aef81\\out\\zstd/lib/legacy\\zstd_v04.o" "-c" "zstd/lib/legacy\\zstd_v04.c"
 cargo:warning=clÿ: Ligne de commande warning D9002ÿ: option '-fvisibility=hidden' inconnue ignor‚e
 zstd_v03.c
@@ -142,17 +143,16 @@ cargo:warning=clÿ: Ligne de commande warning D9002ÿ: option '-fvisibility=hidden
 zstd_v04.c
 exit code: 0
 running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O2" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-Foc:\\Users\\user\\Desktop\\BIFROST\\API\\API_Actix\\https\\target\\debug\\build\\zstd-sys-b2c3fe9b145aef81\\out\\zstd/lib/legacy\\zstd_v05.o" "-c" "zstd/lib/legacy\\zstd_v05.c"
-exit code: 0
-cargo:warning=clÿ: Ligne de commande warning D9002ÿ: option '-fvisibility=hidden' inconnue ignor‚e
 zstd_v05.c
-running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O2" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-Foc:\\Users\\user\\Desktop\\BIFROST\\API\\API_Actix\\https\\target\\debug\\build\\zstd-sys-b2c3fe9b145aef81\\out\\zstd/lib/legacy\\zstd_v06.o" "-c" "zstd/lib/legacy\\zstd_v06.c"
+cargo:warning=clÿ: Ligne de commande warning D9002ÿ: option '-fvisibility=hidden' inconnue ignor‚e
 exit code: 0
+exit code: 0
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O2" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-Foc:\\Users\\user\\Desktop\\BIFROST\\API\\API_Actix\\https\\target\\debug\\build\\zstd-sys-b2c3fe9b145aef81\\out\\zstd/lib/legacy\\zstd_v06.o" "-c" "zstd/lib/legacy\\zstd_v06.c"
 cargo:warning=clÿ: Ligne de commande warning D9002ÿ: option '-fvisibility=hidden' inconnue ignor‚e
 zstd_v06.c
 running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O2" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-Foc:\\Users\\user\\Desktop\\BIFROST\\API\\API_Actix\\https\\target\\debug\\build\\zstd-sys-b2c3fe9b145aef81\\out\\zstd/lib/legacy\\zstd_v07.o" "-c" "zstd/lib/legacy\\zstd_v07.c"
 cargo:warning=clÿ: Ligne de commande warning D9002ÿ: option '-fvisibility=hidden' inconnue ignor‚e
 zstd_v07.c
-exit code: 0
 exit code: 0
 exit code: 0
 exit code: 0

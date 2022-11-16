@@ -2,6 +2,7 @@ use actix_files as fs;
 use actix_web::{
     middleware, web, App, HttpServer,
 };
+
 /* Tous les fichiers lib qu'on a besoin  */
 pub mod tlsconfig;
 pub mod handler;
@@ -16,13 +17,13 @@ async fn main() -> std::io::Result<()> {
     HttpServer::new(|| {
         App::new()
             // enable logger
-            .wrap(middleware::Logger::default())
-            .service(fs::Files::new("/website/img", ".").show_files_listing())
-            .service(handler_json::extract)
             .route("/", web::get().to(static_file::load))
             .route("/log", web::get().to(static_file::load2))
-        
-            .service(web::resource("/index.html").to(handler::index))
+            .service(fs::Files::new("/website/img", ".").show_files_listing())
+            .wrap(middleware::Logger::default())
+            .service(handler_json::extract)
+            .default_service(web::route().to(static_file::not_found))
+           
     })
     .bind_rustls("127.0.0.1:8443", config)? // check if the config is good
     .run()
