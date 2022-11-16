@@ -1,0 +1,18 @@
+[package]
+name = "rustls-example"
+version = "1.0.0"
+edition = "2021"
+
+[[bin]]
+name = "rustls-server"
+path = "src/main.rs"
+
+[dependencies]
+actix-web = { version = "4", features = ["rustls"] }
+actix-web-lab = "0.18"
+actix-files = "0.6"
+
+env_logger = "0.9"
+log = "0.4"
+rustls = "0.20.2"
+rustls-pemfile = "1"

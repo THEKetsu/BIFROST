@@ -1,0 +1,1 @@
+C:\Users\loica\Desktop\ProjetLoicCyber\Actix\Requete\target\debug\basics.exe: C:\Users\loica\Desktop\ProjetLoicCyber\Actix\Requete\src\main.rs C:\Users\loica\Desktop\ProjetLoicCyber\Actix\Requete\static\welcome.html

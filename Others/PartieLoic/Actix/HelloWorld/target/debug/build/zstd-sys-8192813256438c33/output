@@ -1,0 +1,177 @@
+TARGET = Some("x86_64-pc-windows-msvc")
+HOST = Some("x86_64-pc-windows-msvc")
+cargo:rerun-if-env-changed=CC_x86_64-pc-windows-msvc
+CC_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=CC_x86_64_pc_windows_msvc
+CC_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_CC
+HOST_CC = None
+cargo:rerun-if-env-changed=CC
+CC = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64-pc-windows-msvc
+CFLAGS_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64_pc_windows_msvc
+CFLAGS_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_CFLAGS
+HOST_CFLAGS = None
+cargo:rerun-if-env-changed=CFLAGS
+CFLAGS = None
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,sse,sse2")
+DEBUG = Some("true")
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O2" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-Foc:\\Users\\loica\\Desktop\\ProjetLoicCyber\\Actix\\target\\debug\\build\\zstd-sys-8192813256438c33\\out\\zstd/lib/common\\debug.o" "-c" "zstd/lib/common\\debug.c"
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O2" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-Foc:\\Users\\loica\\Desktop\\ProjetLoicCyber\\Actix\\target\\debug\\build\\zstd-sys-8192813256438c33\\out\\zstd/lib/common\\entropy_common.o" "-c" "zstd/lib/common\\entropy_common.c"
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O2" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-Foc:\\Users\\loica\\Desktop\\ProjetLoicCyber\\Actix\\target\\debug\\build\\zstd-sys-8192813256438c33\\out\\zstd/lib/common\\error_private.o" "-c" "zstd/lib/common\\error_private.c"
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O2" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-Foc:\\Users\\loica\\Desktop\\ProjetLoicCyber\\Actix\\target\\debug\\build\\zstd-sys-8192813256438c33\\out\\zstd/lib/common\\fse_decompress.o" "-c" "zstd/lib/common\\fse_decompress.c"
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O2" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-Foc:\\Users\\loica\\Desktop\\ProjetLoicCyber\\Actix\\target\\debug\\build\\zstd-sys-8192813256438c33\\out\\zstd/lib/common\\pool.o" "-c" "zstd/lib/common\\pool.c"
+cargo:warning=clÿ: Ligne de commande warning D9002ÿ: option '-fvisibility=hidden' inconnue ignor‚e
+cargo:warning=clÿ: Ligne de commande warning D9002ÿ: option '-fvisibility=hidden' inconnue ignor‚e
+entropy_common.c
+debug.c
+cargo:warning=clÿ: Ligne de commande warning D9002ÿ: option '-fvisibility=hidden' inconnue ignor‚e
+cargo:warning=clÿ: Ligne de commande warning D9002ÿ: option '-fvisibility=hidden' inconnue ignor‚e
+fse_decompress.c
+error_private.c
+cargo:warning=clÿ: Ligne de commande warning D9002ÿ: option '-fvisibility=hidden' inconnue ignor‚e
+pool.c
+exit code: 0
+exit code: 0
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O2" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-Foc:\\Users\\loica\\Desktop\\ProjetLoicCyber\\Actix\\target\\debug\\build\\zstd-sys-8192813256438c33\\out\\zstd/lib/common\\threading.o" "-c" "zstd/lib/common\\threading.c"
+exit code: 0
+exit code: 0
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O2" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-Foc:\\Users\\loica\\Desktop\\ProjetLoicCyber\\Actix\\target\\debug\\build\\zstd-sys-8192813256438c33\\out\\zstd/lib/common\\zstd_common.o" "-c" "zstd/lib/common\\zstd_common.c"
+cargo:warning=clÿ: Ligne de commande warning D9002ÿ: option '-fvisibility=hidden' inconnue ignor‚e
+threading.c
+cargo:warning=clÿ: Ligne de commande warning D9002ÿ: option '-fvisibility=hidden' inconnue ignor‚e
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O2" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-Foc:\\Users\\loica\\Desktop\\ProjetLoicCyber\\Actix\\target\\debug\\build\\zstd-sys-8192813256438c33\\out\\zstd/lib/compress\\fse_compress.o" "-c" "zstd/lib/compress\\fse_compress.c"
+zstd_common.c
+cargo:warning=clÿ: Ligne de commande warning D9002ÿ: option '-fvisibility=hidden' inconnue ignor‚e
+exit code: 0
+fse_compress.c
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O2" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-Foc:\\Users\\loica\\Desktop\\ProjetLoicCyber\\Actix\\target\\debug\\build\\zstd-sys-8192813256438c33\\out\\zstd/lib/compress\\hist.o" "-c" "zstd/lib/compress\\hist.c"
+cargo:warning=clÿ: Ligne de commande warning D9002ÿ: option '-fvisibility=hidden' inconnue ignor‚e
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O2" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-Foc:\\Users\\loica\\Desktop\\ProjetLoicCyber\\Actix\\target\\debug\\build\\zstd-sys-8192813256438c33\\out\\zstd/lib/compress\\huf_compress.o" "-c" "zstd/lib/compress\\huf_compress.c"
+hist.c
+exit code: 0
+cargo:warning=clÿ: Ligne de commande warning D9002ÿ: option '-fvisibility=hidden' inconnue ignor‚e
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O2" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-Foc:\\Users\\loica\\Desktop\\ProjetLoicCyber\\Actix\\target\\debug\\build\\zstd-sys-8192813256438c33\\out\\zstd/lib/compress\\zstdmt_compress.o" "-c" "zstd/lib/compress\\zstdmt_compress.c"
+huf_compress.c
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O2" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-Foc:\\Users\\loica\\Desktop\\ProjetLoicCyber\\Actix\\target\\debug\\build\\zstd-sys-8192813256438c33\\out\\zstd/lib/compress\\zstd_compress.o" "-c" "zstd/lib/compress\\zstd_compress.c"
+cargo:warning=clÿ: Ligne de commande warning D9002ÿ: option '-fvisibility=hidden' inconnue ignor‚e
+zstdmt_compress.c
+cargo:warning=clÿ: Ligne de commande warning D9002ÿ: option '-fvisibility=hidden' inconnue ignor‚e
+exit code: 0
+zstd_compress.c
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O2" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-Foc:\\Users\\loica\\Desktop\\ProjetLoicCyber\\Actix\\target\\debug\\build\\zstd-sys-8192813256438c33\\out\\zstd/lib/compress\\zstd_compress_literals.o" "-c" "zstd/lib/compress\\zstd_compress_literals.c"
+cargo:warning=clÿ: Ligne de commande warning D9002ÿ: option '-fvisibility=hidden' inconnue ignor‚e
+zstd_compress_literals.c
+exit code: 0
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O2" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-Foc:\\Users\\loica\\Desktop\\ProjetLoicCyber\\Actix\\target\\debug\\build\\zstd-sys-8192813256438c33\\out\\zstd/lib/compress\\zstd_compress_sequences.o" "-c" "zstd/lib/compress\\zstd_compress_sequences.c"
+exit code: 0
+cargo:warning=clÿ: Ligne de commande warning D9002ÿ: option '-fvisibility=hidden' inconnue ignor‚e
+zstd_compress_sequences.c
+exit code: 0
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O2" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-Foc:\\Users\\loica\\Desktop\\ProjetLoicCyber\\Actix\\target\\debug\\build\\zstd-sys-8192813256438c33\\out\\zstd/lib/compress\\zstd_compress_superblock.o" "-c" "zstd/lib/compress\\zstd_compress_superblock.c"
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O2" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-Foc:\\Users\\loica\\Desktop\\ProjetLoicCyber\\Actix\\target\\debug\\build\\zstd-sys-8192813256438c33\\out\\zstd/lib/compress\\zstd_double_fast.o" "-c" "zstd/lib/compress\\zstd_double_fast.c"
+cargo:warning=clÿ: Ligne de commande warning D9002ÿ: option '-fvisibility=hidden' inconnue ignor‚e
+cargo:warning=clÿ: Ligne de commande warning D9002ÿ: option '-fvisibility=hidden' inconnue ignor‚e
+zstd_compress_superblock.c
+zstd_double_fast.c
+exit code: 0
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O2" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-Foc:\\Users\\loica\\Desktop\\ProjetLoicCyber\\Actix\\target\\debug\\build\\zstd-sys-8192813256438c33\\out\\zstd/lib/compress\\zstd_fast.o" "-c" "zstd/lib/compress\\zstd_fast.c"
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O2" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-Foc:\\Users\\loica\\Desktop\\ProjetLoicCyber\\Actix\\target\\debug\\build\\zstd-sys-8192813256438c33\\out\\zstd/lib/compress\\zstd_lazy.o" "-c" "zstd/lib/compress\\zstd_lazy.c"
+cargo:warning=clÿ: Ligne de commande warning D9002ÿ: option '-fvisibility=hidden' inconnue ignor‚e
+zstd_fast.c
+exit code: 0
+cargo:warning=clÿ: Ligne de commande warning D9002ÿ: option '-fvisibility=hidden' inconnue ignor‚e
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O2" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-Foc:\\Users\\loica\\Desktop\\ProjetLoicCyber\\Actix\\target\\debug\\build\\zstd-sys-8192813256438c33\\out\\zstd/lib/compress\\zstd_ldm.o" "-c" "zstd/lib/compress\\zstd_ldm.c"
+zstd_lazy.c
+cargo:warning=clÿ: Ligne de commande warning D9002ÿ: option '-fvisibility=hidden' inconnue ignor‚e
+exit code: 0
+zstd_ldm.c
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O2" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-Foc:\\Users\\loica\\Desktop\\ProjetLoicCyber\\Actix\\target\\debug\\build\\zstd-sys-8192813256438c33\\out\\zstd/lib/compress\\zstd_opt.o" "-c" "zstd/lib/compress\\zstd_opt.c"
+cargo:warning=clÿ: Ligne de commande warning D9002ÿ: option '-fvisibility=hidden' inconnue ignor‚e
+zstd_opt.c
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O2" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-Foc:\\Users\\loica\\Desktop\\ProjetLoicCyber\\Actix\\target\\debug\\build\\zstd-sys-8192813256438c33\\out\\zstd/lib/decompress\\huf_decompress.o" "-c" "zstd/lib/decompress\\huf_decompress.c"
+cargo:warning=clÿ: Ligne de commande warning D9002ÿ: option '-fvisibility=hidden' inconnue ignor‚e
+huf_decompress.c
+exit code: 0
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O2" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-Foc:\\Users\\loica\\Desktop\\ProjetLoicCyber\\Actix\\target\\debug\\build\\zstd-sys-8192813256438c33\\out\\zstd/lib/decompress\\zstd_ddict.o" "-c" "zstd/lib/decompress\\zstd_ddict.c"
+cargo:warning=clÿ: Ligne de commande warning D9002ÿ: option '-fvisibility=hidden' inconnue ignor‚e
+zstd_ddict.c
+exit code: 0
+exit code: 0
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O2" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-Foc:\\Users\\loica\\Desktop\\ProjetLoicCyber\\Actix\\target\\debug\\build\\zstd-sys-8192813256438c33\\out\\zstd/lib/decompress\\zstd_decompress.o" "-c" "zstd/lib/decompress\\zstd_decompress.c"
+exit code: 0
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O2" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-Foc:\\Users\\loica\\Desktop\\ProjetLoicCyber\\Actix\\target\\debug\\build\\zstd-sys-8192813256438c33\\out\\zstd/lib/decompress\\zstd_decompress_block.o" "-c" "zstd/lib/decompress\\zstd_decompress_block.c"
+cargo:warning=clÿ: Ligne de commande warning D9002ÿ: option '-fvisibility=hidden' inconnue ignor‚e
+cargo:warning=clÿ: Ligne de commande warning D9002ÿ: option '-fvisibility=hidden' inconnue ignor‚e
+zstd_decompress.c
+zstd_decompress_block.c
+exit code: 0
+exit code: 0
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O2" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-Foc:\\Users\\loica\\Desktop\\ProjetLoicCyber\\Actix\\target\\debug\\build\\zstd-sys-8192813256438c33\\out\\zstd/lib/dictBuilder\\cover.o" "-c" "zstd/lib/dictBuilder\\cover.c"
+cargo:warning=clÿ: Ligne de commande warning D9002ÿ: option '-fvisibility=hidden' inconnue ignor‚e
+cover.c
+exit code: 0
+exit code: 0
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O2" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-Foc:\\Users\\loica\\Desktop\\ProjetLoicCyber\\Actix\\target\\debug\\build\\zstd-sys-8192813256438c33\\out\\zstd/lib/dictBuilder\\divsufsort.o" "-c" "zstd/lib/dictBuilder\\divsufsort.c"
+exit code: 0
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O2" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-Foc:\\Users\\loica\\Desktop\\ProjetLoicCyber\\Actix\\target\\debug\\build\\zstd-sys-8192813256438c33\\out\\zstd/lib/dictBuilder\\fastcover.o" "-c" "zstd/lib/dictBuilder\\fastcover.c"
+cargo:warning=clÿ: Ligne de commande warning D9002ÿ: option '-fvisibility=hidden' inconnue ignor‚e
+divsufsort.c
+cargo:warning=clÿ: Ligne de commande warning D9002ÿ: option '-fvisibility=hidden' inconnue ignor‚e
+fastcover.c
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O2" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-Foc:\\Users\\loica\\Desktop\\ProjetLoicCyber\\Actix\\target\\debug\\build\\zstd-sys-8192813256438c33\\out\\zstd/lib/dictBuilder\\zdict.o" "-c" "zstd/lib/dictBuilder\\zdict.c"
+exit code: 0
+cargo:warning=clÿ: Ligne de commande warning D9002ÿ: option '-fvisibility=hidden' inconnue ignor‚e
+zdict.c
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O2" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-Foc:\\Users\\loica\\Desktop\\ProjetLoicCyber\\Actix\\target\\debug\\build\\zstd-sys-8192813256438c33\\out\\zstd/lib/legacy\\zstd_v01.o" "-c" "zstd/lib/legacy\\zstd_v01.c"
+exit code: 0
+cargo:warning=clÿ: Ligne de commande warning D9002ÿ: option '-fvisibility=hidden' inconnue ignor‚e
+zstd_v01.c
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O2" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-Foc:\\Users\\loica\\Desktop\\ProjetLoicCyber\\Actix\\target\\debug\\build\\zstd-sys-8192813256438c33\\out\\zstd/lib/legacy\\zstd_v02.o" "-c" "zstd/lib/legacy\\zstd_v02.c"
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O2" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-Foc:\\Users\\loica\\Desktop\\ProjetLoicCyber\\Actix\\target\\debug\\build\\zstd-sys-8192813256438c33\\out\\zstd/lib/legacy\\zstd_v03.o" "-c" "zstd/lib/legacy\\zstd_v03.c"
+cargo:warning=clÿ: Ligne de commande warning D9002ÿ: option '-fvisibility=hidden' inconnue ignor‚e
+zstd_v02.c
+cargo:warning=clÿ: Ligne de commande warning D9002ÿ: option '-fvisibility=hidden' inconnue ignor‚e
+zstd_v03.c
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O2" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-Foc:\\Users\\loica\\Desktop\\ProjetLoicCyber\\Actix\\target\\debug\\build\\zstd-sys-8192813256438c33\\out\\zstd/lib/legacy\\zstd_v04.o" "-c" "zstd/lib/legacy\\zstd_v04.c"
+exit code: 0
+cargo:warning=clÿ: Ligne de commande warning D9002ÿ: option '-fvisibility=hidden' inconnue ignor‚e
+zstd_v04.c
+exit code: 0
+exit code: 0
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O2" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-Foc:\\Users\\loica\\Desktop\\ProjetLoicCyber\\Actix\\target\\debug\\build\\zstd-sys-8192813256438c33\\out\\zstd/lib/legacy\\zstd_v05.o" "-c" "zstd/lib/legacy\\zstd_v05.c"
+cargo:warning=clÿ: Ligne de commande warning D9002ÿ: option '-fvisibility=hidden' inconnue ignor‚e
+exit code: 0
+zstd_v05.c
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O2" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-Foc:\\Users\\loica\\Desktop\\ProjetLoicCyber\\Actix\\target\\debug\\build\\zstd-sys-8192813256438c33\\out\\zstd/lib/legacy\\zstd_v06.o" "-c" "zstd/lib/legacy\\zstd_v06.c"
+cargo:warning=clÿ: Ligne de commande warning D9002ÿ: option '-fvisibility=hidden' inconnue ignor‚e
+zstd_v06.c
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O2" "-Z7" "-Brepro" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-Foc:\\Users\\loica\\Desktop\\ProjetLoicCyber\\Actix\\target\\debug\\build\\zstd-sys-8192813256438c33\\out\\zstd/lib/legacy\\zstd_v07.o" "-c" "zstd/lib/legacy\\zstd_v07.c"
+exit code: 0
+cargo:warning=clÿ: Ligne de commande warning D9002ÿ: option '-fvisibility=hidden' inconnue ignor‚e
+zstd_v07.c
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+cargo:rerun-if-env-changed=AR_x86_64-pc-windows-msvc
+AR_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=AR_x86_64_pc_windows_msvc
+AR_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_AR
+HOST_AR = None
+cargo:rerun-if-env-changed=AR
+AR = None
+running: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\lib.exe" "-out:c:\\Users\\loica\\Desktop\\ProjetLoicCyber\\Actix\\target\\debug\\build\\zstd-sys-8192813256438c33\\out\\libzstd.a" "-nologo" "c:\\Users\\loica\\Desktop\\ProjetLoicCyber\\Actix\\target\\debug\\build\\zstd-sys-8192813256438c33\\out\\zstd/lib/common\\debug.o" "c:\\Users\\loica\\Desktop\\ProjetLoicCyber\\Actix\\target\\debug\\build\\zstd-sys-8192813256438c33\\out\\zstd/lib/common\\entropy_common.o" "c:\\Users\\loica\\Desktop\\ProjetLoicCyber\\Actix\\target\\debug\\build\\zstd-sys-8192813256438c33\\out\\zstd/lib/common\\error_private.o" "c:\\Users\\loica\\Desktop\\ProjetLoicCyber\\Actix\\target\\debug\\build\\zstd-sys-8192813256438c33\\out\\zstd/lib/common\\fse_decompress.o" "c:\\Users\\loica\\Desktop\\ProjetLoicCyber\\Actix\\target\\debug\\build\\zstd-sys-8192813256438c33\\out\\zstd/lib/common\\pool.o" "c:\\Users\\loica\\Desktop\\ProjetLoicCyber\\Actix\\target\\debug\\build\\zstd-sys-8192813256438c33\\out\\zstd/lib/common\\threading.o" "c:\\Users\\loica\\Desktop\\ProjetLoicCyber\\Actix\\target\\debug\\build\\zstd-sys-8192813256438c33\\out\\zstd/lib/common\\zstd_common.o" "c:\\Users\\loica\\Desktop\\ProjetLoicCyber\\Actix\\target\\debug\\build\\zstd-sys-8192813256438c33\\out\\zstd/lib/compress\\fse_compress.o" "c:\\Users\\loica\\Desktop\\ProjetLoicCyber\\Actix\\target\\debug\\build\\zstd-sys-8192813256438c33\\out\\zstd/lib/compress\\hist.o" "c:\\Users\\loica\\Desktop\\ProjetLoicCyber\\Actix\\target\\debug\\build\\zstd-sys-8192813256438c33\\out\\zstd/lib/compress\\huf_compress.o" "c:\\Users\\loica\\Desktop\\ProjetLoicCyber\\Actix\\target\\debug\\build\\zstd-sys-8192813256438c33\\out\\zstd/lib/compress\\zstdmt_compress.o" "c:\\Users\\loica\\Desktop\\ProjetLoicCyber\\Actix\\target\\debug\\build\\zstd-sys-8192813256438c33\\out\\zstd/lib/compress\\zstd_compress.o" "c:\\Users\\loica\\Desktop\\ProjetLoicCyber\\Actix\\target\\debug\\build\\zstd-sys-8192813256438c33\\out\\zstd/lib/compress\\zstd_compress_literals.o" "c:\\Users\\loica\\Desktop\\ProjetLoicCyber\\Actix\\target\\debug\\build\\zstd-sys-8192813256438c33\\out\\zstd/lib/compress\\zstd_compress_sequences.o" "c:\\Users\\loica\\Desktop\\ProjetLoicCyber\\Actix\\target\\debug\\build\\zstd-sys-8192813256438c33\\out\\zstd/lib/compress\\zstd_compress_superblock.o" "c:\\Users\\loica\\Desktop\\ProjetLoicCyber\\Actix\\target\\debug\\build\\zstd-sys-8192813256438c33\\out\\zstd/lib/compress\\zstd_double_fast.o" "c:\\Users\\loica\\Desktop\\ProjetLoicCyber\\Actix\\target\\debug\\build\\zstd-sys-8192813256438c33\\out\\zstd/lib/compress\\zstd_fast.o" "c:\\Users\\loica\\Desktop\\ProjetLoicCyber\\Actix\\target\\debug\\build\\zstd-sys-8192813256438c33\\out\\zstd/lib/compress\\zstd_lazy.o" "c:\\Users\\loica\\Desktop\\ProjetLoicCyber\\Actix\\target\\debug\\build\\zstd-sys-8192813256438c33\\out\\zstd/lib/compress\\zstd_ldm.o" "c:\\Users\\loica\\Desktop\\ProjetLoicCyber\\Actix\\target\\debug\\build\\zstd-sys-8192813256438c33\\out\\zstd/lib/compress\\zstd_opt.o" "c:\\Users\\loica\\Desktop\\ProjetLoicCyber\\Actix\\target\\debug\\build\\zstd-sys-8192813256438c33\\out\\zstd/lib/decompress\\huf_decompress.o" "c:\\Users\\loica\\Desktop\\ProjetLoicCyber\\Actix\\target\\debug\\build\\zstd-sys-8192813256438c33\\out\\zstd/lib/decompress\\zstd_ddict.o" "c:\\Users\\loica\\Desktop\\ProjetLoicCyber\\Actix\\target\\debug\\build\\zstd-sys-8192813256438c33\\out\\zstd/lib/decompress\\zstd_decompress.o" "c:\\Users\\loica\\Desktop\\ProjetLoicCyber\\Actix\\target\\debug\\build\\zstd-sys-8192813256438c33\\out\\zstd/lib/decompress\\zstd_decompress_block.o" "c:\\Users\\loica\\Desktop\\ProjetLoicCyber\\Actix\\target\\debug\\build\\zstd-sys-8192813256438c33\\out\\zstd/lib/dictBuilder\\cover.o" "c:\\Users\\loica\\Desktop\\ProjetLoicCyber\\Actix\\target\\debug\\build\\zstd-sys-8192813256438c33\\out\\zstd/lib/dictBuilder\\divsufsort.o" "c:\\Users\\loica\\Desktop\\ProjetLoicCyber\\Actix\\target\\debug\\build\\zstd-sys-8192813256438c33\\out\\zstd/lib/dictBuilder\\fastcover.o" "c:\\Users\\loica\\Desktop\\ProjetLoicCyber\\Actix\\target\\debug\\build\\zstd-sys-8192813256438c33\\out\\zstd/lib/dictBuilder\\zdict.o" "c:\\Users\\loica\\Desktop\\ProjetLoicCyber\\Actix\\target\\debug\\build\\zstd-sys-8192813256438c33\\out\\zstd/lib/legacy\\zstd_v01.o" "c:\\Users\\loica\\Desktop\\ProjetLoicCyber\\Actix\\target\\debug\\build\\zstd-sys-8192813256438c33\\out\\zstd/lib/legacy\\zstd_v02.o" "c:\\Users\\loica\\Desktop\\ProjetLoicCyber\\Actix\\target\\debug\\build\\zstd-sys-8192813256438c33\\out\\zstd/lib/legacy\\zstd_v03.o" "c:\\Users\\loica\\Desktop\\ProjetLoicCyber\\Actix\\target\\debug\\build\\zstd-sys-8192813256438c33\\out\\zstd/lib/legacy\\zstd_v04.o" "c:\\Users\\loica\\Desktop\\ProjetLoicCyber\\Actix\\target\\debug\\build\\zstd-sys-8192813256438c33\\out\\zstd/lib/legacy\\zstd_v05.o" "c:\\Users\\loica\\Desktop\\ProjetLoicCyber\\Actix\\target\\debug\\build\\zstd-sys-8192813256438c33\\out\\zstd/lib/legacy\\zstd_v06.o" "c:\\Users\\loica\\Desktop\\ProjetLoicCyber\\Actix\\target\\debug\\build\\zstd-sys-8192813256438c33\\out\\zstd/lib/legacy\\zstd_v07.o"
+exit code: 0
+cargo:rustc-link-search=native=C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\atlmfc\lib\x64
+cargo:rustc-link-lib=static=zstd
+cargo:rustc-link-search=native=c:\Users\loica\Desktop\ProjetLoicCyber\Actix\target\debug\build\zstd-sys-8192813256438c33\out
+cargo:root=c:\Users\loica\Desktop\ProjetLoicCyber\Actix\target\debug\build\zstd-sys-8192813256438c33\out
+cargo:include=C:\Users\loica\.cargo\registry\src\github.com-1ecc6299db9ec823\zstd-sys-2.0.1+zstd.1.5.2\zstd/lib

@@ -1,0 +1,31 @@
+[package]
+name = "Test"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+opentelemetry = "0.17.0"
+opentelemetry-jaeger = "0.16.0"
+tracing = "0.1.35"
+tracing-opentelemetry = "0.17.4"
+tracing-subscriber = "0.3.14"
+
+# Web framework that focuses on ergonomics and modularity.
+axum = "0.4.8"
+
+# Modular reusable components for building robust clients and servers.
+tower = "0.4.12"
+
+# A fast and correct HTTP library.
+hyper = { version = "0.14.17", features = ["full"] }
+
+# Event-driven, non-blocking I/O platform.
+tokio = { version = "1.17.0", features = ["full"] }
+
+# A serialization/deserialization framework.
+serde = { version = "1.0.136", features = ["derive"] }
+
+# Serde serializion/deserialization of JSON data.
+serde_json = "1.0.79"

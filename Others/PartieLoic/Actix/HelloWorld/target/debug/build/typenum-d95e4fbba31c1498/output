@@ -1,0 +1,2 @@
+cargo:rustc-env=TYPENUM_BUILD_CONSTS=c:\Users\loica\Desktop\ProjetLoicCyber\Actix\target\debug\build\typenum-d95e4fbba31c1498\out\consts.rs
+cargo:rustc-env=TYPENUM_BUILD_OP=c:\Users\loica\Desktop\ProjetLoicCyber\Actix\target\debug\build\typenum-d95e4fbba31c1498\out\op.rs
