@@ -2,8 +2,6 @@ use std::{fs::File, io::BufReader};
 
 use rustls::{Certificate, PrivateKey, ServerConfig};
 use rustls_pemfile::{certs, pkcs8_private_keys};
-
-
 pub fn load_rustls_config() -> rustls::ServerConfig {
     // init server config builder with safe defaults
     let config = ServerConfig::builder()
