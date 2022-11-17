@@ -2,6 +2,7 @@ use actix_files::NamedFile;
 use actix_web::{HttpRequest, Result};
 use std::path::PathBuf;
 /* HOME */
+
 pub async fn load(_req: HttpRequest) -> Result<NamedFile> {
     let path: PathBuf = "website/web.html".parse().unwrap();
     Ok(NamedFile::open(path)?)

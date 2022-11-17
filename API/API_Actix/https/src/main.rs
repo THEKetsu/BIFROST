@@ -2,8 +2,8 @@ use actix_files as fs;
 use actix_web::{
     middleware, web, App, HttpServer,
 };
-
 /* Tous les fichiers lib qu'on a besoin  */
+pub mod service_discovery;
 pub mod tlsconfig;
 pub mod handler;
 pub mod handler_json;
