@@ -1,0 +1,8 @@
+cargo:rerun-if-env-changed=PQ_LIB_STATIC
+cargo:rerun-if-env-changed=TARGET
+cargo:rerun-if-env-changed="PQ_LIB_DIR_X86_64_PC_WINDOWS_MSVC"
+"PQ_LIB_DIR_X86_64_PC_WINDOWS_MSVC" = Err(NotPresent)
+cargo:rerun-if-env-changed="PQ_LIB_DIR"
+"PQ_LIB_DIR" = Err(NotPresent)
+cargo:rerun-if-env-changed=PG_CONFIG_X86_64_PC_WINDOWS_MSVC
+cargo:rustc-link-lib=dylib=libpq
