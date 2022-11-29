@@ -1,82 +1,101 @@
 use mysql::*;
 use mysql::prelude::*;
+use rand::{thread_rng, Rng};
+use rand::distributions::Alphanumeric;
 use std::collections::hash_map::DefaultHasher;
 use std::hash::{Hash, Hasher};
 #[derive(Debug, PartialEq, Eq)]
+
+
+//structure d'un password 
 struct Password {
+    id: i32,
     login: String,
-    passw: u64,
+    passw: String,
 }
 
-
+//fonction de hash
 impl Hash for Password {
     fn hash<H: Hasher>(&self, state: &mut H) {
-        self.login.hash(state);
         self.passw.hash(state);
     }
 }
 
 
 
-fn PASSWORDHASH() {
-	let person1 = Password {
-    	login: "Thomas".to_string(),
-    	passw: 0000, 
-	};
-    
+fn PASSWORDHASH(b: String) -> String {
+	let person1 = b;
 assert_eq!(calculate_hash(&person1),calculate_hash(&person1));
 
-fn calculate_hash<T: Hash>(t: &T) -> u64 {
+fn calculate_hash<T: Hash>(t: &T) -> String {
     let mut s = DefaultHasher::new();
     t.hash(&mut s);
-    s.finish()
+    s.finish().to_string()
 
 }
-
-println!("{}", calculate_hash(&person1))   
-
+println!("{}", calculate_hash(&person1));
+return calculate_hash(&person1)
 }
-  
+
+
+
+fn sel() -> String {
+let mut rng = thread_rng();
+let x: u32 = rng.gen();
+
+
+let s: String = (&mut rng).sample_iter(Alphanumeric)
+    .take(15)
+    .map(char::from)
+    .collect();
+println!("{}", s);
+return s;
+}
+
+
+
 
 fn main ()-> std::result::Result<(), Box<dyn std::error::Error>>{
      let url = "mysql://GAGA:mypass@localhost:3306/passwd";
     let pool = Pool::new(url)?;
     let mut conn = pool.get_conn()?;
-    PASSWORDHASH();
-
-    // Let's create a table for payments.
+    
+    let y= sel();
+    let concat= "4".to_string() + &y;
+    let x = PASSWORDHASH(concat);
+    
     conn.query_drop(
-        r"CREATE TABLE password (
+        r"CREATE TABLE IF NOT EXISTS password (
+            id int not null,
             login text not null,
-            password int not null
+            password text not null
         )")?;
-
     let passwords = vec![
-        Password { login:"Thomas".to_string(), passw: 0000 },
+        Password { id: 1, login:"gaëlle".to_string(), passw: x },
+        Password { id: 2, login:"Thomas".to_string(), passw: "0000".to_string() },
+        Password { id: 3, login:"corentin".to_string(), passw: "5165".to_string() },
     ];
 
-    // Now let's insert payments to the database
+
     conn.exec_batch(
-        r"INSERT INTO password (login, password)
-          VALUES (:login, :password)",
+        r"INSERT INTO password (id, login, password)
+          VALUES (:id, :login, :password)",
         passwords.iter().map(|p| params! {
+            "id" => p.id,
             "login" => &p.login,
-            "password" => p.passw,
+            "password" => &p.passw,
         })
     )?;
 
-    // Let's select payments from database. Type inference should do the trick here.
+
     let selected_passwords = conn
         .query_map(
-            "SELECT login, password from password",
-            |(login, passw)| {
-                Password { login, passw }
+            "SELECT * from password ",
+            |(id, login, passw)| {
+                Password { id, login, passw }
             },
         )?;
 
-    // Let's make sure, that `payments` equals to `selected_payments`.
-    // Mysql gives no guaranties on order of returned rows
-    // without `ORDER BY`, so assume we are lucky.
     assert_eq!(passwords, selected_passwords);
     println!("Yay!");
 
