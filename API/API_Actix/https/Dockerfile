@@ -1,4 +1,5 @@
-FROM rust:1.61
-COPY . .
+FROM rust
+WORKDIR /src
+COPY ./ ./
 RUN cargo build --release
-CMD ["./target/release/docker"]
+CMD ["/bin/docker-program"]
