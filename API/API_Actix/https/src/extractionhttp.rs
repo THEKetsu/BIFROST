@@ -34,6 +34,8 @@ pub async fn extract_http_request(req: HttpRequest) -> HttpResponse {
         result.push_str(&format!("{}: {:?}\n", name, value));
     }
     /*    println!("{}", result); */
-    HttpResponse::Ok().body(result)
+    HttpResponse::Ok()
+    .body(result)
+    .header("Authorization","Basic kfôzjfgzeôjr");
 }
 
