@@ -33,7 +33,11 @@ pub async fn extract_http_request(req: HttpRequest) -> HttpResponse {
     for (name, value) in req.headers().iter() {
         result.push_str(&format!("{}: {:?}\n", name, value));
     }
-    //println!("{}", result); 
-    HttpResponse::Ok().body(result)
+    //println!("{}", result);
+    /* REDIRECTION DE LA REQUETE HTTP AVEC UN HEADER D'AUHTENTIFICATION*/
+    HttpResponse::Ok()
+    .body(result)
+    .header("Authorization","Basic kfôzjfgzeôjr");
+    
 }
 
