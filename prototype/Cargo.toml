@@ -1,0 +1,53 @@
+[package]
+name = "prototype"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[[bin]]
+name = "https-proxy"
+path = "src/https-proxy.rs"
+
+[[bin]]
+name = "websocket-server"
+path = "src/websocket-server.rs"
+
+[[bin]]
+name = "websocket-client"
+path = "src/websocket-client.rs"
+
+[[bin]]
+name = "web"
+path = "src/main.rs"
+
+
+[dependencies]
+#BDD
+askama = "0.11.1"
+mysql = "*"
+chrono = "0.4"
+rand = "0.8.5"
+futures = "0.3.25"
+aes= "0.8.1"
+rust-argon2 = "1.0"
+
+#websocket
+actix-web = { version = "4", features = ["openssl","rustls"] }
+awc = "3"
+clap = { version = "4", features = ["derive"] }
+env_logger = "0.10"
+log = "0.4"
+url = "2.2"
+actix-web-lab = "0.18"
+actix-files = "0.6"
+rustls = "0.20.2"
+rustls-pemfile = "1"
+actix = "0.13"
+actix-codec = "0.5"
+actix-web-actors = "4.1"
+futures-util = { version = "0.3.17", default-features = false, features = ["std", "sink"] }
+tokio = { version = "1.13.1", features = ["full"] }
+tokio-stream = "0.1.8"
+serde = { version = "1.0.147", features = ["derive"] }
+serde_json = "1"
+actix_send_websocket = "0.1.0"

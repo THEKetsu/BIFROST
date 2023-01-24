@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<title>Identification</title>
+<form>
+  <label for="message">Message d'alerte :</label><br>
+  <input type="text" id="message"><br>
+  <button type="button" onclick="showAlert()">Afficher l'alerte</button>
+</form>
+
+<script>
+  function showAlert() {
+    // Affiche l'alerte prédéfinie
+    alert("loic");
+
+    // Récupère l'élément input de type text sur la page
+    var inputElement = document.querySelector("input[type='text']");
+
+    // Affecte la valeur de l'alerte à la valeur de l'élément input
+    inputElement.value = "loic";
+  }
+</script>
+
+</html>
