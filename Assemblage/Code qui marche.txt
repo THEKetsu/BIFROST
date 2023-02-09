@@ -1,0 +1,70 @@
+use std::{io};
+
+use actix_files::{Files, NamedFile};
+use actix_web::{
+    get,
+    http::{
+        header::{self, ContentType},
+        Method, StatusCode,
+    },
+    web, App, Either, HttpRequest, HttpResponse, HttpServer, Responder, Result,
+};
+
+
+/// simple index handler
+#[get("/SignUp")]
+async fn SignUp(req: HttpRequest) -> Result<HttpResponse> {
+    println!("{req:?}");
+    // response
+    Ok(HttpResponse::build(StatusCode::OK)
+        .content_type(ContentType::plaintext())
+        .body(include_str!("../static/SignUp.html")))
+}
+
+async fn default_handler(req_method: Method) -> Result<impl Responder> {
+    match req_method {
+        Method::GET => {
+            let file = NamedFile::open("static/404.html")?
+                .customize()
+                .with_status(StatusCode::NOT_FOUND);
+            Ok(Either::Left(file))
+        }
+        _ => Ok(Either::Right(HttpResponse::MethodNotAllowed().finish())),
+    }
+}
+
+#[actix_web::main]
+async fn main() -> io::Result<()> {
+    HttpServer::new(move || {
+        App::new()   
+            .service(SignUp)       
+            // static files
+            .service(Files::new("/static", "static").show_files_listing())
+            // redirect
+            .service(
+                web::resource("/").route(web::get().to(|req: HttpRequest| async move {
+                    println!("{req:?}");
+                    HttpResponse::Found()
+                        .insert_header((header::LOCATION, "static/SignUp.html"))
+                        .finish()
+                })),
+            )
+            // default
+            .default_service(web::to(default_handler))
+    })
+    .bind(("127.0.0.1", 8080))?
+    .workers(2)
+    .run()
+    .await
+}
+
+
+
+
+actix-files = "0.6"
+actix-session = { version = "0.7", features = ["cookie-session"] }
+actix-web = "4"
+
+async-stream = "0.3"
+env_logger = "0.9"
+log = "0.4"

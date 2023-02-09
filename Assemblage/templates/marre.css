@@ -1,0 +1,154 @@
+.body{
+  background-image: url('BDD4.jpg');
+
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+label {
+    display: block;
+    font-size: 25px;
+	color: white;
+	width: 55%;
+	font-family:Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+
+}
+
+table{
+  width: 100%;
+  border-collapse: collapse;
+	
+}
+th, td{
+  padding: 3px;
+  border: 1px solid #fff;
+  text-align: center;
+
+}
+
+th{
+  background: #8FEDFF;
+  color: black;
+  font-weight: bold;  
+}
+
+td{
+	background:none;	
+}
+
+
+
+
+.login-page {
+  width: 780px;
+  margin: auto;
+}
+
+
+.table{
+	margin: center;
+    color: white;
+	background: rgba(0, 0, 0, 0);
+}
+
+h1 {
+	color: white;
+    text-align: center;
+    font-size: 3vw;
+    margin: 50px;
+	font-family:Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+}
+
+
+.button2{
+	display:inline-block;
+	border:#666 1px solid;
+	margin:2px;
+	font-size:24px;
+	cursor:pointer;
+	width:50px;
+	height:50px;
+	border-radius:50%;
+	border-color:white;
+	background:#8FEDFF;
+	font-family:Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+	color:white;
+}
+
+button{
+   	display:inline-block;
+	border:#666 1px solid;
+	margin:2px;
+	font-size:20px;
+	cursor:pointer;
+	width:110px;
+	height:50px;
+	background:white;
+	border-radius:10px;
+	font-family:Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+}
+
+
+.button3{
+	display:inline-block;
+	border:#666 1px solid;
+	margin:2px;
+	font-size:24px;
+	cursor:pointer;
+	width:50px;
+	height:50px;
+	border-radius:50%;
+	border-color:white;
+	background:#0D3D5A;
+	font-family:Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+	color:white;
+}
+
+.button4{
+   	display:inline-block;
+	border:#666 1px solid;
+	margin:2px;
+	font-size:20px;
+	cursor:pointer;
+	width:100px;
+	height:50px;
+	background:white;
+	border-radius:10px;
+	background:white;
+	font-family:Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+}
+
+
+.search{
+		display: inline-block;
+		width: 300px;
+		margin: 50px auto;
+		margin-left: 200px;
+		padding: 3px;
+		color: #333;
+		border: 1px solid #ccc;
+		
+}
+
+input {
+    width: 300px;
+    padding: 10px;
+    font-size: 20px;
+    margin: 10px 0;
+	color: black;
+	opacity: 0.7;
+	font-family:Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+	border-radius:10px;
+}
+
+input::placeholder {
+        color: black;
+        opacity: 1;
+}
+		
+		
+.p{
+	color: white;
+	font-family:Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+}

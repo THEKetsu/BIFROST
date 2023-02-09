@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+<html>
+<head>
+  <title>Login</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="page2.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,300,600' rel='stylesheet' type='text/css'>  
+  <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,300,600' rel='stylesheet' type='text/css'> 
+  <script src="lottie-player.js" type="text/javascript"></script>
+</head>
+
+<script type="text/javascript">
+function gg() {
+	if( (document.getElementById('username').value == "")){
+		alert("Veuillez rentrer un username");
+    }
+	else if (document.getElementById('mdp').value == ""){
+		alert("Veuillez rentrer un mot de passe");
+    }
+	else if(document.getElementById('username').value != "BIFROST"){
+		alert("Veuillez rentrer le username par defaut");
+	}
+	else if(document.getElementById('mdp').value != "BIFROST"){
+		alert("Veuillez rentrer le mot de passe par defaut");
+	}
+	else{
+		window.location.href="choix.html"	
+    }
+
+}
+
+
+function makeid(length) {
+    var result           = '';
+    var characters       = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+    var charactersLength = characters.length;
+    for ( var i = 0; i < length; i++ ) {
+        result += characters.charAt(Math.floor(Math.random() * charactersLength));
+    }
+    return result;
+}
+</script>
+<body class="body">	
+<div class="login-page">
+  <div class="form">
+	<div class="titre">
+		<h1 align="center">BIFROST GATEWAY</h1>
+	</div>
+    <form>
+      <lottie-player src="https://assets4.lottiefiles.com/datafiles/XRVoUu3IX4sGWtiC3MPpFnJvZNq7lVWDCa8LSqgS/profile.json"  background="transparent"  speed="1"  style="justify-content: center;" loop  autoplay></lottie-player>
+      <input type="text" id="username" placeholder="&#xf007;  username"/>
+	  <input type="password" id="mdp" placeholder="&#xf023;  mdp" /> 
+      <br>
+      <br>	  
+    </form>
+	<a><input id="nom" type="button" onclick="gg()" value="Login"><a>
+  </div>
+</div>
+</body>
+</html>
+

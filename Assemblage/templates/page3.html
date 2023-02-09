@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <html>
+    <head>
+      <title>Sign Up</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta charset="utf-8" />
+      <link rel="stylesheet" type="text/css" href="page2.css" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+      <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,300,600" rel="stylesheet" type="text/css"/>
+      <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+	  <script src="lottie-player.js" type="text/javascript"></script>
+    </head>
+	<script src="sha256.js" type="text/javascript"></script>
+	<div class="retour">
+		<a href="menu1.html" ><button class="button4">Menu</button></a>
+	</div>
+    <body class="body">     
+      <div class="login-page">
+        <div class="form">
+		<div class="titre">
+		<h1 align="center">SIGNUP BIFROST</h1>
+	</div>
+          <form>
+            <lottie-player
+              src="https://assets4.lottiefiles.com/datafiles/XRVoUu3IX4sGWtiC3MPpFnJvZNq7lVWDCa8LSqgS/profile.json"
+              background="transparent"
+              speed="1"
+              style="justify-content: center"
+              loop
+              autoplay
+            ></lottie-player>
+            <input id="login" type="text" placeholder="&#xf007; Login" />
+            <input id="password" type="password"  placeholder="&#xf023; Password" />
+			 <input id="password2" type="password" placeholder="&#xf023; Confirm password" />
+            <br>
+            <br>
+          </form>
+
+          <a><input id="signup" type="button" onclick="Securisation()"value="SIGN UP"><a>
+        </div>
+      </div>
+    </body>
+    <script>
+	function Securisation() {
+	var str = document.getElementById("password").value;
+	console.log(str.length);
+	console.log(str);
+	if (document.getElementById('login').value == ""){
+		alert("Veuillez rentrer votre nom d'utilisateur");
+	}
+	else if (document.getElementById('password').value == ""){
+		alert("Veuillez rentrer un mot de passe");
+    }
+	else if (document.getElementById('password').value != document.getElementById('password2').value){
+		alert("Veuillez rentrer le même mot de passe");
+    }
+	else if (document.getElementById("password").value.length < 8 ){
+		alert("Veuillez rentrer un mot de passe de plus de 8 caractères");
+	}
+
+	else if (str === str.toLowerCase()) {
+	   alert("Veuillez rentrer une majuscule");
+	}
+	<!-- else if (Check() = 2){ -->
+		<!-- alert("Veuillez rentrer un caractère spécial"); -->
+	<!-- } -->
+	else {
+			console.log("bon mot de passe");
+			Check();
+	}
+	
+	}
+	
+
+	
+	function sel(){
+		let sel = makeid(10)
+		console.log(sel);
+		console.log(document.getElementById('password').value);
+		let mdphash = document.getElementById('password').value+sel;
+		console.log(mdphash);
+		let hash = sha256(mdphash)
+		console.log(hash);
+		alert(hash);
+		window.location.href="menu.html"
+	}
+	
+
+	function makeid(length) {
+		var result           = '';
+		var characters       = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+		var charactersLength = characters.length;
+		for ( var i = 0; i < length; i++ ) {
+			result += characters.charAt(Math.floor(Math.random() * charactersLength));
+		}
+		return result;
+	}
+	
+	function Check()
+	{
+			var phrase = document.getElementById("password").value;
+			console.log(phrase);
+			//var nbMaj = phrase.match(/[A-Z]/g).length;
+			//alert(nbMaj);
+
+	if (phrase.match( /[^a-zA-Z\d]/g)){
+	  console.log('Contient des caractères spéciaux');
+	  sel();
+	} else {
+	  alert("Veuillez rentrer un caractère spécial");
+	}
+	}
+</script>
+  </html>
+</html>

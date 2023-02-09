@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="bifrost.css">
+  <title>PresentationBifrost</title>
+</head>
+
+<body>
+  <!-- Page 1 -->
+  <section id="page-1" class="page">
+    <div class="retour">
+		<a href="menu1.html" ><button class="button4">Retour Menu</button></a>
+	</div>
+      <h1>Bienvenue sur la présentation de BIFROST</h1>
+      <p>B!Frost est une passerelle inverse sécurisée permettant de relier les services cloud et les services internes.
+Avec B!frost, un service fonctionnant dans le cloud peut accéder et interagir avec un service fonctionnant dans un réseau d'entreprise.
+Le service cloud doit d'abord se connecter et s'authentifier sur une passerelle b!frost fonctionnant également dans le nuage. 
+Ensuite la passerelle b!frost cloud fait le pont vers une passerelle b!frost enterprise fonctionnant dans le réseau de l'entreprise, 
+via un canal sécurisé. Enfin, la passerelle d'entreprise b!frost crée le lien avec le service d'entreprise interne.</p>
+      <div>
+          <a href="#page-2" class="btn">
+              Page d'après <i class="btnpage"></i>
+          </a>
+      </div>
+  </section>
+  <!-- page 2 -->
+   <section id="page-2" class="page">
+      <h1>Corentin Tyteca</h1>
+      <p>Chef de projet</p>
+	  <p>Création du websocket protocol</p>
+	  <p>l'agent Bifrost dans le cloud</p>
+      <div>
+          <a href="#page-1" class="btn  btn-dark">
+              Page d'avant <i class="btnpage"></i>
+          </a>
+          <a href="#page-3" class="btn">
+              Page d'après <i class="btnpage"></i>
+          </a>
+      </div>
+  </section>
+  <!-- Page 3 -->
+  <section id="page-3" class="page">
+      <h1>Quentin Bender</h1>
+      <p>Il a aider Corentin pour sa partie</p>
+	  <p>Recherche d'une librairie qui permet de creer une API en rust (Actix web)</p>
+      <div>
+          <a href="#page-2" class="btn  btn-dark">
+              Page d'avant  <i class="btnpage"></i>
+          </a>
+          <a href="#page-4" class="btn">
+              Page d'après <i class="btnpage"></i>
+          </a>
+      </div>
+  </section>
+  <!-- page 4 -->
+  <section id="page-4" class="page">
+      <h1>Hugo Gouiran</h1>
+      <p>Chiffrement AES</p>
+	  <p>Responsable powerpoint</p>
+      <div>
+          <a href="#page-3" class="btn  btn-dark">
+              Page d'avant  <i class="btnpage"></i>
+          </a>
+          <a href="#page-5" class="btn">
+              Page d'après <i class="btnpage"></i>
+          </a>
+      </div>
+	  
+  </section>
+   <!-- page 5 -->
+  <section id="page-5" class="page">
+      <h1>Thomas Choquell</h1>
+      <p>Création de la base de donnée BIFROST</p>
+	  <p>Fonction de Hashage en Rust</p>
+      <div>
+         <a href="#page-4" class="btn  btn-dark">
+              Page d'avant  <i class="btnpage"></i>
+          </a>
+          <a href="#page-6" class="btn">
+              Page d'après <i class="btnpage"></i>
+          </a>
+      </div>
+  </section>
+   <!-- page 6 -->
+  <section id="page-6" class="page">
+      <h1>Loic Allegretti</h1>
+      <p>Création du site web</p>
+	  <p>Fonction de Hashage et de sel en JavaScript</p>
+	  <p>Liaison entre HTML et Rust afin de récuperer le mot de passe Hashé pour l'utiliser en rust</p>
+      <div>
+          <a href="#page-5" class="btn  btn-dark">
+              Page d'avant  <i class="btnpage"></i>
+          </a>
+      </div>	  
+  </section>
+  
+  <script>
+    // Smooth Scrolling
+  $('.btn').on('click', function (event) {
+      if (this.hash !== '') {
+        event.preventDefault();
+
+        const hash = this.hash;
+
+        $('html, body').animate(
+          {
+            scrollTop: $(hash).offset().top
+          },
+          800
+        );
+      }
+    });
+
+
+  </script>
+</body>
+
+</html>

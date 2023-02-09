@@ -1,0 +1,204 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>BIFROST DataBase</title>
+		<link href="marre.css" rel="stylesheet" type="text/css">
+		
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            table tr:not(:first-child){
+                cursor: pointer;transition: all .25s ease-in-out;
+            }
+            table tr:not(:first-child):hover{background-color: #ddd;}
+        </style>
+    </head>
+	<div class="retour">
+		<a href="menu1.html" ><button class="button4">Menu</button></a>
+		<h1>DATA-BASE BIFROST</h1>
+	</div>
+		
+    <body class="body">	
+
+<div class="login-page">
+		
+		
+       
+        <label for="item">Entrer une nouvelle donnée :</label>
+		
+		<input type="text" id="name" placeholder="Element" >
+		<input type="text" id="lastname" placeholder="Clé">
+		<button class="button2"  id="add_kid()" onClick="addKid()" >+</button>
+		<button class="button3"  onclick="myDeleteFunction()">-</button></label>
+
+		<label for="item">Cliquer sur la case a modifier :</label>
+		<input type="text" name="fname" id="fname" placeholder="Element">
+		<input type="text" name="lname" id="lname" placeholder="Clé">
+		<button onclick="editRow();">Edit Row</button>
+		
+		<br>
+		<br>
+		<input class="search" id="maRecherche" type="text" placeholder="Recherche Element" onkeyup="filtrer()">
+        <table id="table" class="table" border="1">
+            
+            <tr>
+				<th>ID</th>
+                <th>Element</th>
+                <th>Clé élément</th>
+            </tr>
+            
+            <tr>
+				<td>1</td>
+                <td>Discord</td>
+                <td>523645684</td>
+            </tr>
+        </table>
+			</div>
+		   <script> 
+            var table = document.getElementById("table"),rIndex;
+            var countrow = 5;
+            
+ 
+            function addKid()
+            {
+             
+					
+                    var newRow = document.createElement('tr');
+					//var newRow2 = document.createElement('tr');
+					m = document.getElementById("name").value;
+					ma = document.getElementById("lastname").value;
+					<!-- console.log(m); -->
+					<!-- console.log(ma); -->
+                    //newRow.innerHTML ="<td>${m}</td><td>$ma</td>";
+					if (ma == "" || m == ""){
+						alert("Rentrez des données");
+					return;
+				}
+					// Create an empty <tr> element and add it to the 1st position of the table:
+					var row = table.insertRow(-1);
+					
+					// Insert new cells (<td> elements) at the 1st and 2nd position of the "new" <tr> element:
+					//var cell = row.insertcell(2);
+				    var cell3 = row.insertCell(0);
+					var cell1 = row.insertCell(1);
+					var cell2 = row.insertCell(2);
+					
+					
+					// Add some text to the new cells:
+					//cell.innerHTML = 5;
+					cell1.innerHTML = m;
+					cell2.innerHTML = ma;
+					var id = table.rows.length-1;
+					cell3.innerHTML ='<th background-color:#999690;>'+id+'</th>';
+                    countrow++;
+					
+					rIndex = "loic"
+					<!-- console.log(rIndex); -->
+					
+					row.onclick = function()
+					{
+                    rIndex = this.rowIndex;
+                    <!-- console.log(rIndex); -->
+                    alert('Attention vous avez cliquez sur la ligne'+rIndex);
+					//document.getElementById("table").rows.length.value = this.cells[2].innerHTML;
+					document.getElementById("lname").value = this.cells[0].innerHTML;
+                    document.getElementById("fname").value = this.cells[1].innerHTML;
+                    document.getElementById("lname").value = this.cells[2].innerHTML;
+					};
+					
+					console.log(table.rows.length);
+					
+					
+            }
+			
+			for(var i = 1; i < table.rows.length; i++)
+            {
+                table.rows[i].onclick = function()
+                {
+                    rIndex = this.rowIndex;
+                    <!-- console.log(rIndex); -->
+                    
+					//document.getElementById("table").rows.length.value = this.cells[2].innerHTML;
+                    document.getElementById("lname").value = this.cells[0].innerHTML;
+                    document.getElementById("fname").value = this.cells[1].innerHTML;
+					document.getElementById("lname").value = this.cells[2].innerHTML;
+
+					
+                };
+            }
+            
+            
+           // edit the row
+            function editRow()
+            {
+				if (rIndex == "loic"){
+					alert("Cliquer sur une ligne a modifier");
+					return;
+				}
+				if (rIndex == undefined){
+					alert("Cliquer sur une ligne a modifier");
+					return;
+				}
+				//table.rows[rIndex].cells[2].innerHTML = document.getElementById("table").rows.length.value;
+				table.rows[rIndex].cells[1].innerHTML = document.getElementById("fname").value;
+                table.rows[rIndex].cells[2].innerHTML = document.getElementById("lname").value;
+				rIndex = "loic";
+				<!-- console.log(rIndex); -->
+            }
+			
+			  var i = 0;
+		
+			function myDeleteFunction() {
+				var x = document.getElementById("table").rows.length;
+				if (rIndex == undefined){
+					alert("Cliquer sur une ligne a supprimer");
+					rIndex== "loic"
+					return;
+				}
+				if (x==1){
+					alert("Vous ne pouvez pas supprimer la première ligne du tableau");
+					rIndex== "loic"
+					return;
+				}
+				
+				if (rIndex== "loic"){
+					alert("Cliquer sur une ligne a supprimer");
+					rIndex== "loic"
+					return;
+				}
+				document.getElementById("table").deleteRow(rIndex);
+				console.log(rIndex);
+				rIndex= "loic"
+				<!-- console.log(rIndex) -->
+			}
+		
+function filtrer()
+{
+	var filtre,tableau,ligne,cellule,i,texte
+	
+	filtre = document.getElementById("maRecherche").value.toUpperCase();
+	tableau = document.getElementById("table");
+	ligne = tableau.getElementsByTagName("tr");
+	
+	for(i=0; i<ligne.length;i++)
+	{
+		cellule = ligne[i].getElementsByTagName("td")[1];
+		if(cellule)
+		{
+			texte = cellule.innerText;
+			if(texte.toUpperCase().indexOf(filtre) > -1)
+			{
+				ligne[i].style.display = "";
+			}
+			else
+			{
+				ligne[i].style.display = "none";
+			}
+		}
+	}
+}
+</script>    
+        
+    </body>
+</html>

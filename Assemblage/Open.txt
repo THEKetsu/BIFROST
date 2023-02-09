@@ -1,0 +1,61 @@
+use actix_web::{web, App, HttpResponse, HttpServer};
+use std::fs;
+
+fn load_page() -> HttpResponse {
+    let html_file = format!("index.html");
+
+    let html = match fs::read_to_string(html_file) {
+        Ok(file) => file,
+        Err(_) => "".to_string(),
+    };
+
+    HttpResponse::Ok().content_type("text/html").body(html)
+}
+
+fn load_css(path: web::Path<String>) -> HttpResponse {
+    let css_file = format!("{}.css", path);
+
+    let css = match fs::read_to_string(css_file) {
+        Ok(file) => file,
+        Err(_) => "".to_string(),
+    };
+
+    HttpResponse::Ok().content_type("text/css").body(css)
+}
+
+fn load_js(path: web::Path<String>) -> HttpResponse {
+    let js_file = format!("{}.js", path);
+
+    let js = match fs::read_to_string(js_file) {
+        Ok(file) => file,
+        Err(_) => "".to_string(),
+    };
+
+    HttpResponse::Ok().content_type("application/javascript").body(js)
+}
+
+#[actix_web::main]
+async fn main() -> std::io::Result<()> {
+    HttpServer::new(|| {
+        App::new()
+            .route("/", web::get().to(load_page))
+            .route("/styles/{file}", web::get().to(load_css))
+            .route("/scripts/{file}", web::get().to(load_js))
+    })
+    .bind("127.0.0.1:8080")?
+    .run()
+    .await
+}
+
+
+
+[package]
+name = "openhtml"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix-web = "3.0"
+actix-files = "0.6.2"
